@@ -65,3 +65,27 @@
         }
     }
 }
+
+@media only screen and (max-width:768px) {
+    .result {
+        &__heading {
+            font-size: 30px;
+            padding: 50px 0;
+        }
+        &__container {
+            max-width: 854px;
+        }
+        .result-content {
+            max-width: 160px;
+            margin-right: 42px;
+            padding: -58px;
+        }
+        .result-content__numbers {
+            font-size: 40px;
+        }
+        .result-texts {
+            font-size: 20px;
+            line-height: 21px;
+        }
+    }
+}
