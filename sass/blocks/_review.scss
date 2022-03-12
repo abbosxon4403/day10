@@ -1,0 +1,30 @@
+.review {
+    padding-top: 177px;
+    padding-bottom: 175px;
+    &__heading {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 28px;
+        text-align: center;
+        padding-bottom: 75px;
+    }
+    &__container {
+        background-color: #ecf9eb;
+        max-height: 760px;
+        padding-top: 70px;
+        padding-left: 104px;
+        padding-right: 25px;
+        overflow-y: scroll;
+    }
+    &__block {
+        display: flex;
+        padding-bottom: 80px;
+        justify-content: space-between;
+    }
+    .review__right {
+        max-width: 746px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

@@ -694,18 +694,6 @@
   }
 }
 
-.biggest {
-  padding-bottom: 100px;
-  padding-top: 75px;
-}
-
-.bigbox {
-  border: 1px solid #424242;
-  max-width: 300px;
-  max-height: 400px;
-  padding: 30px;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1139,6 +1127,65 @@ template {
   }
 }
 
+.review {
+  padding-top: 177px;
+  padding-bottom: 175px;
+}
+
+.review__heading {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.review__container {
+  background-color: #ecf9eb;
+  max-height: 760px;
+  padding-top: 70px;
+  padding-left: 104px;
+  padding-right: 25px;
+  overflow-y: scroll;
+}
+
+.review__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.review .review__right {
+  max-width: 746px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #55a630;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #55a630;
+  border-radius: 20px;
+  border: 3px solid #55a630;
+}
+
 *,
 *::after,
 *::before {
@@ -1151,7 +1198,8 @@ html {
 }
 
 body {
-  font-family: "Montserrat", "Arial", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
 }
 
 img {
